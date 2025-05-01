@@ -1,4 +1,4 @@
-# Voice Agent
+# AI Agents Agentic Demos using LangGraph
 
 A demo codebase for building AI agentic flows to address real-world problems in customer support. This project demonstrates how to automate workflows using AI and mock APIs.
 
