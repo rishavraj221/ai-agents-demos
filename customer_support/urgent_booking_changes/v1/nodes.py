@@ -1,6 +1,6 @@
 import requests
 
-from customer_support.urgent_booking_changes.state import AgentState
+from customer_support.urgent_booking_changes.v1.state import AgentState
 hosted_url = "http://localhost:8000"
 
 # ---- Node 1: Parse User Input ----

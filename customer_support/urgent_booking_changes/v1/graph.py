@@ -1,6 +1,6 @@
 from langgraph.graph import StateGraph, END
-from customer_support.urgent_booking_changes.state import AgentState
-from customer_support.urgent_booking_changes.nodes import parse_input, authenticate, fetch_booking, confirm_action, process_cancellation, handle_error
+from customer_support.urgent_booking_changes.v1.state import AgentState
+from customer_support.urgent_booking_changes.v1.nodes import parse_input, authenticate, fetch_booking, confirm_action, process_cancellation, handle_error
 
 # Build LangGraph
 builder = StateGraph(AgentState)

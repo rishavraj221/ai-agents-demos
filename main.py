@@ -1,6 +1,6 @@
 from pyngrok import ngrok
 import uvicorn
-from customer_support.urgent_booking_changes.mock_server import app
+from customer_support.urgent_booking_changes.v1.mock_server import app
 
 # Start server via ngrok (for Colab Compatibility)
 ngrok_tunnel = ngrok.connect(8000)

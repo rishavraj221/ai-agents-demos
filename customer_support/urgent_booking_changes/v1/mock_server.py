@@ -47,7 +47,7 @@ def agent_invoke(request: AgentRequest, api_key: str = Header(...)):
     "api_key": "SECRET_KEY_123"
   }
 
-  from customer_support.urgent_booking_changes.graph import agent
+  from customer_support.urgent_booking_changes.v1.graph import agent
   result = agent.invoke(initial_state)
 
   return {"message": str(result)}

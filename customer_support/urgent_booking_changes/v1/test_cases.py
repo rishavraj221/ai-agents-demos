@@ -1,5 +1,5 @@
-from customer_support.urgent_booking_changes.graph import agent
-from customer_support.urgent_booking_changes.mock_server import mock_bookings
+from customer_support.urgent_booking_changes.v1.graph import agent
+from customer_support.urgent_booking_changes.v1.mock_server import mock_bookings
 
 #########################################################################################
 ### Test Case 1

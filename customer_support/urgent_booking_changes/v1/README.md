@@ -13,4 +13,4 @@ graph TD
 ```
 
 ### Diagram
-![Diagram](../../assets/graph1.png)
+<img src="../../assets/graph1.png" width="100">
