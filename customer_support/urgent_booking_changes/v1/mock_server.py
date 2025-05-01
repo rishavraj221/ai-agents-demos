@@ -38,7 +38,7 @@ def cancel_booking(booking_id: str, api_key: str = Header(...)):
   mock_bookings[booking_id]["status"] = "cancelled"
   return {"message": "Cancellation successful"}
 
-@app.post("/agent")
+@app.post("/agent/v1")
 def agent_invoke(request: AgentRequest, api_key: str = Header(...)):
   user_input = request.user_input
 
