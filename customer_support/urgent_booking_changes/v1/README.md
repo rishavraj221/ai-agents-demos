@@ -13,4 +13,4 @@ graph TD
 ```
 
 ### Diagram
-<img src="../../assets/graph1.png" width="100">
+<img src="../../assets/graph1.png" width="200px">
