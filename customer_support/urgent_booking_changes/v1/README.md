@@ -13,4 +13,4 @@ graph TD
 ```
 
 ### Diagram
-<img src="../../assets/graph1.png" width="200px">
+<img src="https://github.com/rishavraj221/ai-agents-demos/blob/main/assets/graph1.png" width="200px">
