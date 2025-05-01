@@ -66,7 +66,7 @@ A demo codebase for building AI agentic flows to address real-world problems in 
 ### Running the project
 Start the mock server
 1. Run the server using `uvicorn`:
-```python
+```bash
 python main.py
 ```
 2. The server will be exposed via ngrok. The public URL will be printed in the terminal.
