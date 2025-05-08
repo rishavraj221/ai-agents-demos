@@ -9,6 +9,7 @@ dependencies = [
     "ffmpeg-python>=0.2.0",
     "langchain>=0.3.23",
     "langchain-openai>=0.3.12",
+    "langchain-tavily>=0.1.6",
     "langgraph>=0.3.29",
     "nest-asyncio>=1.6.0",
     "openai>=1.73.0",
