@@ -11,9 +11,10 @@
 # uvicorn.run(app, host="0.0.0.0", port=8000)
 
 # from basic_chat_bot.v1.bot import stream_graph_updates
-from basic_chat_bot.v3.bot import graph, stream_graph_updates
+from basic_chat_bot.v4.bot import graph, stream_graph_updates
 
 if __name__ == "__main__":
+
     while True:
         user_input = input("User: ")
         if user_input.lower() in ["quit", "exit", "q"]:

@@ -49,3 +49,10 @@ def stream_graph_updates(graph, user_input: str, config):
     for event in graph.stream({"messages": [{"role": "user", "content": user_input}]}, config):
         for value in event.values():
             print("Assistant:", value["messages"][-1].content)
+
+def get_snapshot(config):
+    snapshot = graph.get_state(config)
+    return snapshot
+
+## to get 'next' node to process
+# snapshot.next
