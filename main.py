@@ -11,17 +11,23 @@
 # uvicorn.run(app, host="0.0.0.0", port=8000)
 
 # from basic_chat_bot.v1.bot import stream_graph_updates
-from basic_chat_bot.v5.bot import graph, stream_graph_updates
+# from basic_chat_bot.v5.bot import graph, stream_graph_updates
+
+# if __name__ == "__main__":
+
+#     while True:
+#         user_input = input("User: ")
+#         if user_input.lower() in ["quit", "exit", "q"]:
+#             print("Goodbye!")
+#             break
+
+#         ## Now let's interact with the bot. First, pick a thread to use as the key for this conversation.
+#         config = {"configurable": {"thread_id": "1"}}
+
+#         stream_graph_updates(graph, user_input, config)
 
 if __name__ == "__main__":
 
-    while True:
-        user_input = input("User: ")
-        if user_input.lower() in ["quit", "exit", "q"]:
-            print("Goodbye!")
-            break
+    from basic_chat_bot.v3.api import app
 
-        ## Now let's interact with the bot. First, pick a thread to use as the key for this conversation.
-        config = {"configurable": {"thread_id": "1"}}
-
-        stream_graph_updates(graph, user_input, config)
+    app.run(debug=True, host="0.0.0.0", port="3001")
