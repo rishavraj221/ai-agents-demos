@@ -32,10 +32,27 @@ if __name__ == "__main__":
 
     # app.run(debug=True, host="0.0.0.0", port="3001")
 
-    from voice_chat.v1.agent import app
+    from voice_chat.v2.agent import app
 
     app.run(debug=True, host="0.0.0.0", port="5001")
 
     # from basic_chat_bot.v6.twilio import main
 
     # main()
+
+    # from voice_chat.v2.bot import graph, stream_graph_updates
+
+
+    # config = {"configurable": {"thread_id": "1"}}
+
+    # # graph.update_state(config, {"messages": [SYSTEM_PROMPT]})
+
+    # while True:
+    #     user_input = input(f"Enter something: ")
+
+    #     if user_input == 'end' or user_input == 'q':
+    #         print("Thank you!")
+    #         break
+
+    #     assistant_response = stream_graph_updates(user_input=user_input, config=config)
+    #     print(assistant_response)
